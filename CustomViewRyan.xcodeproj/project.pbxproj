@@ -14,6 +14,8 @@
 		88DCCA551E2F12730011449F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DCCA531E2F12730011449F /* LaunchScreen.storyboard */; };
 		88DCCA601E2F12730011449F /* CustomViewRyanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCA5F1E2F12730011449F /* CustomViewRyanTests.swift */; };
 		88DCCA6B1E2F12730011449F /* CustomViewRyanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCA6A1E2F12730011449F /* CustomViewRyanUITests.swift */; };
+		88DCCA791E2F13000011449F /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88DCCA781E2F13000011449F /* CustomView.xib */; };
+		88DCCA7B1E2F156A0011449F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCCA7A1E2F156A0011449F /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		88DCCA661E2F12730011449F /* CustomViewRyanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewRyanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DCCA6A1E2F12730011449F /* CustomViewRyanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewRyanUITests.swift; sourceTree = "<group>"; };
 		88DCCA6C1E2F12730011449F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DCCA781E2F13000011449F /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		88DCCA7A1E2F156A0011449F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				88DCCA511E2F12730011449F /* Assets.xcassets */,
 				88DCCA531E2F12730011449F /* LaunchScreen.storyboard */,
 				88DCCA561E2F12730011449F /* Info.plist */,
+				88DCCA781E2F13000011449F /* CustomView.xib */,
+				88DCCA7A1E2F156A0011449F /* CustomView.swift */,
 			);
 			path = CustomViewRyan;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DCCA551E2F12730011449F /* LaunchScreen.storyboard in Resources */,
+				88DCCA791E2F13000011449F /* CustomView.xib in Resources */,
 				88DCCA521E2F12730011449F /* Assets.xcassets in Resources */,
 				88DCCA501E2F12730011449F /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DCCA7B1E2F156A0011449F /* CustomView.swift in Sources */,
 				88DCCA4D1E2F12730011449F /* ViewController.swift in Sources */,
 				88DCCA4B1E2F12730011449F /* AppDelegate.swift in Sources */,
 			);
